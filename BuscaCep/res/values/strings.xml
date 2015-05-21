@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Configurações</string>
+    <string name="app_name">Busca Cep</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="busca_cep">Digite abaixo o CEP que deseja encontrar:</string>
+    <string name="cep">*****-***</string>
+    <string name="buscar">Buscar!</string>
+    <string name="historico">Ver Histórico de Consultas</string>
+    <string name="feedback"></string>
+    <string name="fecharPopUp">Fechar</string>
+    <string name="textPopUp">CEPs consultados:</string>
+    <string name="textResult">Último endereço consultado:</string>   
+</resources>

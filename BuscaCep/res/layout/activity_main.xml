@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teste.buscacep.MainActivity" >
+
+    <TextView
+        android:id="@+id/txtBuscaCep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/busca_cep" />
+
+	<Button
+	    android:id="@+id/btnHistorico"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/btnBuscar"
+	    android:text="@string/historico" />
+
+	<Button
+	    android:id="@+id/btnBuscar"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/txtBuscaCep"
+	    android:layout_toRightOf="@+id/edtCep"
+	    android:text="@string/buscar" />
+
+	<EditText
+	    android:id="@+id/edtCep"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/btnBuscar"
+	    android:layout_alignBottom="@+id/btnBuscar"
+	    android:layout_alignParentLeft="true"
+	    android:ems="10"
+	    android:inputType="phone"
+	    android:maxLength="9"
+	    android:width="150dp"
+	    android:text="@string/cep"
+	 />
+
+    <TextView
+        android:id="@+id/txtFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnHistorico"
+        android:layout_marginTop="16dp"
+        android:text="@string/feedback" />
+    
+	<TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtFeedback"
+        android:layout_marginTop="16dp"
+        android:visibility="invisible"
+        android:text="@string/textResult" />
+    
+</RelativeLayout>
